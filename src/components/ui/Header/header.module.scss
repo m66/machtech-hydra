@@ -1,0 +1,28 @@
+.header {
+    margin-bottom: 80px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .burgerBtn {
+        display: none;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header .navbar, .btnsWrapper {
+        display: none;
+    }
+
+    .burgerBtn {
+        display: block !important;
+    }
+}

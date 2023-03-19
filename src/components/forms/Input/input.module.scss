@@ -1,0 +1,51 @@
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--HYtextColor);
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 37px;
+}
+
+.inputElement {
+    width: -webkit-fill-available;
+    padding: 25px 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    outline: none;
+}
+
+.textareaElement {
+    resize: vertical;
+    overflow: hidden;
+}
+
+.errorText {
+    margin: 10px 0 0 30px;
+    color: red;
+}
+
+.errorBorder {
+    border: 2px solid red !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .input {
+        margin-bottom: 0;
+    }
+    
+    input {
+        margin-bottom: 10px;
+    }
+
+    .inputElement {
+        padding: 16px 27px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

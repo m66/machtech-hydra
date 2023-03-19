@@ -1,0 +1,104 @@
+.footer {
+    margin-top: 40px;
+
+    .content {
+        padding: 60px 0;
+        display: flex;
+        justify-content: space-between;
+
+        .verticalLine {
+            width: 3px;
+            background-image: url('../../../assets/images/Vertical-Vector.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .links li {
+            margin-bottom: 20px;
+
+            a {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+            }
+        }
+
+        .socialMedias {
+            p {
+                margin-bottom: 39px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+            }
+
+            ul {
+                margin-bottom: 49px;
+                display: flex;
+                gap: 20px;
+            }
+        }
+    }
+
+    .horizontalLine {
+        height: 2px;
+        margin-bottom: 30px;
+        background-image: url('../../../assets/images/Horizontal-Vector-large.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .copyright {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0.13em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer {
+        .content {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 0;
+
+            .logo img {
+                height: 185px;
+                margin-bottom: 56px;
+            }
+
+            .verticalLine,
+            .links {
+                display: none;
+            }
+
+            .socialMedias {
+                margin-bottom: 45px;
+                p {
+                    margin-bottom: 29px;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+
+                ul img{
+                    // height: 32px;
+                }
+            }
+        }
+
+        .copyright {
+            flex-direction: column;
+            p {
+                margin-bottom: 15px;
+            }
+            .dash {
+                display: none;
+            }
+        }
+    }
+}

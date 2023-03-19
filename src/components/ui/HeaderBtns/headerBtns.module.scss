@@ -1,0 +1,10 @@
+.btnWrapper {
+    display: flex;
+    gap: 38px;
+}
+
+@media only screen and (max-width: 480px) {
+    .btnWrapper {
+        flex-direction: column;
+    } 
+}

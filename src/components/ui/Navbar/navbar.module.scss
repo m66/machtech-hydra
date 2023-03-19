@@ -1,0 +1,10 @@
+.navbar ul {
+    display: flex;
+    gap: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar ul {
+        flex-direction: column;
+    } 
+}

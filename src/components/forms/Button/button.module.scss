@@ -1,0 +1,29 @@
+.btn {
+    height: fit-content;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+.primary {
+    color: #343045;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: 1px solid transparent;
+    cursor: not-allowed;
+
+    &:hover:enabled {
+        cursor: pointer;
+    }
+}
+
+.secondary {
+    border: 1px solid var(--HYwhiteColor);
+    color: var(--HYtextColor);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.disabled {
+    opacity: 0.5;
+}

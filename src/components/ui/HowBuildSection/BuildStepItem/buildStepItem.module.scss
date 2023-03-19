@@ -1,0 +1,44 @@
+.buildStepItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .cycleWrapper {
+        width: 198px;
+        height: 198px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        background: #0E0E0E52;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        .cycleContent {
+            width: 159px;
+            height: 159px;
+            color: #343045;
+            background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 78px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .introduction {
+        display: flex;
+        align-items: flex-start;
+
+        .text {
+            padding-top: 15px;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.contactItem {
+    display: flex;
+    // border-right: 1px solid #615A7C;
+    // padding-right: 50px;
+
+    .icon {
+        margin-right: 10px;
+    }
+
+    .infoWrapper {
+        .caption {
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29px;
+        }
+
+        .text {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contactItem {
+        width: 65%;
+        align-items: center;
+
+        .infoWrapper {
+            .caption {
+                display: none;
+            }
+
+            .text {
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+    }
+}
